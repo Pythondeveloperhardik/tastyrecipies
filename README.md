@@ -1,4 +1,4 @@
-# tastyrecipies
+# Tastyrecipies
 This site is for people who want to cook delicious recipes.
 Welcome to RecipeHub, your one-stop destination for a diverse and delicious collection of recipes! Whether you're a seasoned chef or just starting out in the kitchen, RecipeHub is designed to cater to all your culinary needs. With an extensive range of recipes from around the world, you'll never run out of inspiration for your next meal.
 

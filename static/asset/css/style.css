@@ -1,0 +1,159 @@
+.heading{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Zilla Slab', serif;
+    
+    
+    
+}
+.recipename{
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+}
+
+
+/*.seedetails{
+    text-decoration: none;
+    /* border: 1px solid black; 
+    padding: 4px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #279501;
+
+    color: rgb(255 255 255);
+    border-radius: 10px;
+    font-size: 15px;
+}*/
+
+/* Customize the button styles */
+.seedetails {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #930d0d; /* Green background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-weight:500;
+
+    box-shadow: inset 5px 0 11px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Add a cool hover effect */
+  .seedetails:hover {
+    background-color: #05750b; /* Darker green background color */
+  }
+
+.seed{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+  .card-img-top img {
+    width: 100%;
+    height: 250px; /* Set the desired height for the images, adjust as needed */
+    object-fit: cover; /* Ensures the image covers the entire container */
+  
+    border-radius: 5px;
+  }
+
+  
+
+  .card{
+               /* Adding both left and right inner shadows */
+               box-shadow: inset -3px 0 11px rgba(199, 194, 194, 0.5),
+               inset 3px 0 11px rgba(199, 194, 194, 0.5);
+  }
+
+  .sticky-header {
+    position: sticky;
+    top: 72px; /* Adjust this value to match the height of the tag line section */
+    z-index: 998;  /*Lower z-index to ensure tagline stays above header */
+   
+  }
+
+  .sticky-tagline {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+ 
+
+
+.userloginname{
+  display: inline-block;
+ 
+  padding-left: 9px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.heading{
+  background-color:#bf0000;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+       /* Footer styles */
+       footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .footer-social {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-social li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-social a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+    }
+
+
+    /*                       footer css code                              */
+
+
+   
+
+
+            
+
+
+  
+
+
+

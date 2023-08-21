@@ -1,0 +1,283 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block 'main' %}
+
+<style>
+     .ri-name-main {
+            /*align-items: center;*/
+            display: flex;
+            justify-content: center;
+
+            /*align-items: center;*/
+            /* height: 100vh;  This will make the div take up the full viewport height */
+        }
+
+        .ri-name {
+            border: none;
+            text-align: center;
+            padding-left: -10px;
+            margin-top: 5px;
+            box-shadow: inset -3px 0 22px rgba(133, 89, 7, 0.5),
+                inset 3px 0 22px rgba(117, 79, 8, 0.5);
+                background-color: #ffc500;
+        }
+
+        .ri-name p {
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 28px;
+            font-family: 'Crimson Text', serif;
+
+        }
+
+        .r-step {
+            background-color:white;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #000000;
+
+            box-shadow: inset -3px 0 2px rgba(63, 241, 9, 0.692),
+                inset 3px 0 2px rgba(52, 230, 8, 0.5);
+        }
+
+        .r-step h2{
+
+            display:inline-block;
+            margin-top: 2%;
+            text-align: center;
+            align-items: center;
+           
+
+
+        }
+
+        .r-incrediant {
+            background-color: rgb(0, 0, 0);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #eda200;
+
+           
+
+            box-shadow: inset -3px 0 2px rgba(179, 138, 6, 0.692),
+                inset 3px 0 2px rgba(231, 191, 11, 0.5);
+        }
+        .r-infomain{
+            /*background-image: linear-gradient(black,white) ,url(https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);*/
+            background-image:linear-gradient(#000000e5 10%, rgba(37, 30, 30, 0)), url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .r-incrediant h2{
+            display:inline-block;
+            margin-top: 5%;
+            text-align: center;
+            align-items: center;
+           
+
+        }
+        .language-buttons p{
+            color: #ffc500;
+        }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid r-infomain"><!--container fuluid start -->
+
+
+
+
+
+
+
+
+    <div class="row ri-name-main"><!--recipe name row-->
+
+
+        <div class="col-md-3 ri-name">
+            <p>Soyabin Chilli</p>
+        </div>
+
+
+    </div><!--recipe name row end -->
+
+
+
+
+
+
+
+
+    <div class="row ri-name-main"><!--recipe image row start-->
+
+        <div class="col-md-3 mt-3"><!--dish 1-->
+
+            <div class="card" style="width: 100%;">
+                <div class="card-img-top">
+                    <img src="{% static 'asset/image/soyabin chilli.jpeg' %}" alt="...">
+                </div>
+                <!--<div class="card-body">
+                <h5 class="recipename">Recipe Name : Soyabin Chilli </h5>
+                <p class="seed"><a class="seedetails" href="#">Recipes</a></p>
+                 Add your recipe details or content here -->
+            </div>
+
+        </div>
+
+    </div><!--recipe image row end-->
+
+
+
+    <!-- Add language selection buttons -->
+    <div class="language-buttons">
+        <p>Language : </p>
+        <button id="english-btn">English</button>
+        <button id="marathi-btn">Marathi</button>
+        <button id="hindi-btn">Hindi</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="row   mt-3 "> <!--recipe increadient and step row start-->
+
+
+        <div class="col-md-4  r-incrediant">
+            <div class="row">
+                <h2>Increadient</h2>
+            </div>
+
+
+            <p>
+                Soya :
+            <section> 1 tsp Salt<br>
+                2 cups Soya Chunks
+            </section>
+
+            </p>
+            <p>
+                Coating :
+            <section>
+                1 tbsp Ginger Garlic Paste<br>
+                1 tsp Kashmiri Red Chilli powder<br>
+                3 tbsp Rice Flour<br>
+                3 tbsp Curd
+            </section>
+            </p>
+            <p>
+                Sauce :
+            <section>
+                3 tbsp Oil<br>
+                3 Green Chilli chopped<br>
+                3 Red Chilli chopped<br>
+                10 Garlic Clove sliced<br>
+                1 inch Ginger sliced<br>
+                1 Onion roughly chopped<br>
+                1 Capsicum roughly chopped<br>
+                2 Spring Onion roughly chopped<br>
+                1.5 tsp Soya Sauce<br>
+                1 tsp Green Chilli Sauce<br>
+                1 tsp Red Chilli Powder<br>
+                ¼ cup Water<br>
+                Salt
+            </section>
+            </p>
+
+
+        </div>
+
+
+        <!--</div>recipe increadient row end88888888888888888888888-->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="row mt-3">......recipe steps row start-->
+
+
+        <div class="col-md-8 r-step">
+
+            <div class="row">
+                <h2>Instruction</h2>
+            </div>
+
+
+            <p>
+                Soya Chunks
+            <section>
+                1 .In a pan boil some water, add in salt and soya chunks. Boil for 3-4 minutes. Strain the water
+                and let them cool completely. Once cold squeeze extra water with hands.
+
+            </section>
+            </p>
+
+            <p>
+                Coating :
+            <section>
+                1 .In a bowl add in soya chunks, red chilli powder, ginger garlic paste,curd, rice flour and mix
+                it well for even coating. Heat a pan and add a little oil in it and let it heat. <br>
+                2 . Add in soya chunks and fry till soya chunks are crispy and changes colour.
+            </section>
+
+            </p>
+
+            <p>
+                Chilli Soya :
+            <section>
+
+                1 .In a pan add in oil and let it heat. Now add in green chilli, red chilli, ginger,garlic and sauté a
+                little.<br>
+                2. Put in onion, capsicum, green onion and sauté a bit. Once vegies are sautéed add in soya sauce,green
+                chilli sauce, red chilli sauce and sauté a little.<br>
+                3. Now add in water, mix it well and let it cometo boil. Once boiling add in fried soya chunks,
+                salt,sprinkle some spring onion and mix well.<br>
+                4. Cover and cook for 2 minutes for soya chunks toabsorb the sauce. After 2 minutes remove the cover and
+                mix again.
+
+            </section>
+            </p>
+
+
+        </div>
+
+
+
+    </div><!--recipe steps row end-->
+
+
+
+
+
+
+
+
+
+
+
+</div><!--container fuluid end -->
+
+{% endblock 'main' %}

@@ -1,0 +1,182 @@
+{% extends 'base.html' %}
+
+
+
+{% load static %}
+
+{% block 'main'%}
+
+<style>
+    /* styles.css */
+.card {
+  width: 200px; /* Set the width of each card */
+  height: 410px; /* Set the height of each card */
+}
+
+
+
+.card-body{
+
+    width: 100%; /* Thumbnail image will take up the full width of the card */
+  height:300px; /* Set the height of the thumbnail image */
+  object-fit: cover; /* Ensure the image covers the entire container without stretching */
+  border-top-left-radius: 5px; /* Add some border radius to the top corners for a nicer look */
+  border-top-right-radius: 5px;
+
+}
+</style>
+
+<div class="row mt-2 "><!--filter and recipe div contain-->
+
+    <div class="col-md-3 mt-3"><!--dish 1-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/soyabin chilli.jpeg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Soyabin Chilli </h5>
+               
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3 "><!--dish 2-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/Vegetable-Masala-Khichdi-V1.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Dal-Khichadi </h5>
+               
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 3-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/Cheese-Sandwich.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Cheese-Grill-Sandwich</h5>
+              
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 1-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/Ragda-Patties.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Ragada-Patice </h5>
+                
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 2-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/veg-machurian soup.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : veg-machurian </h5>
+               
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 2-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/kadaipanner.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Kadai-Paneer </h5>
+               
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 2-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/spring-roll-recipe2.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : veg spring-roll </h5>
+              
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-3 mt-3"><!--dish 2-->
+
+        <div class="card" style="width: 100%;">
+            <div class="card-img-top">
+                <img src="{% static 'asset/image/panner chilli.jpg' %}" alt="...">
+            </div>
+            <div class="card-body">
+                <h5 class="recipename">Recipe Name : Paneer chilli</h5>
+                
+                <!-- Add your recipe details or content here -->
+            </div>
+            <div class="card-bodyy">
+                <p class="seed"><a class="seedetails" href="recipeinfo.html">Recipes</a></p>
+            </div>
+        </div>
+
+    </div>
+
+
+</div><!--filter and recipe div contain end-->
+
+{% endblock 'main'%}
+
+

@@ -10,13 +10,17 @@ a small online recipehub platform for them to see , save and share thire favroit
 Frontend:
 
 HTML: For structuring the content and elements of the web pages.
+
 CSS: For styling and layout, making the application visually appealing and responsive.
+
 JavaScript: For adding interactivity and dynamic behavior to the frontend.
 
 Backend:
 
 Python: As the programming language for the backend logic.
+
 Django: A powerful and popular Python web framework that helps with rapid development, handling routing, and managing database interactions.
+
 MySQL: A relational database management system (RDBMS) that is often used as the backend database to store and manage data.
 
 # Note:
